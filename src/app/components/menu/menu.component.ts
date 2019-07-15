@@ -19,7 +19,11 @@ export class MenuComponent implements OnInit {
     {
       name: 'Contact',
       path: '/contact'
-    }
+    },
+    {
+      name: 'Posts',
+      path: '/posts'
+    },
   ];
 
   constructor() { }
