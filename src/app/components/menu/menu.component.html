@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <a [routerLink]="route.path"
+    class="list-group-item"
+    *ngFor="let route of myAppRoutes">
+    {{ route.name }}
+  </a>
+</ul>
