@@ -8,6 +8,8 @@ import { AlertController } from '@ionic/angular';
 })
 export class AlertPage implements OnInit {
 
+  private title: string;
+
   constructor(public alertController: AlertController) { }
 
   ngOnInit() {
@@ -31,6 +33,37 @@ export class AlertPage implements OnInit {
           text: 'Ok',
           handler: (blah) => {
             console.log('Button Ok');
+          }
+        }
+      ]
+    });
+
+    await alert.present();
+  }
+
+  async presentAlertPrompt() {
+    const alert = await this.alertController.create({
+      header: 'Prompt!',
+      inputs: [
+        {
+          name: 'title',
+          type: 'text',
+          placeholder: 'Placeholder 1'
+        }
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          cssClass: 'secondary',
+          handler: () => {
+            console.log('Confirm Cancel');
+          }
+        }, {
+          text: 'Ok',
+          handler: ( data ) => {
+            console.log('Confirm Ok', data);
+            this.title = data.title;
           }
         }
       ]
