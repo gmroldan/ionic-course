@@ -28,6 +28,12 @@ export class IndexPage implements OnInit {
       name: 'Buttons and Routers',
       redirectTo: '/buttons'
     }
+    ,
+    {
+      icon: 'card',
+      name: 'Cards',
+      redirectTo: '/cards'
+    }
   ];
 
   constructor() { }
