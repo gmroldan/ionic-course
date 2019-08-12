@@ -27,12 +27,16 @@ export class IndexPage implements OnInit {
       icon: 'radio-button-on',
       name: 'Buttons and Routers',
       redirectTo: '/buttons'
-    }
-    ,
+    },
     {
       icon: 'card',
       name: 'Cards',
       redirectTo: '/cards'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Checkbox',
+      redirectTo: '/checks'
     }
   ];
 
