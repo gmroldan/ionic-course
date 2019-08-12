@@ -22,6 +22,11 @@ export class IndexPage implements OnInit {
       icon: 'beaker',
       name: 'Avatar',
       redirectTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-on',
+      name: 'Buttons and Routers',
+      redirectTo: '/buttons'
     }
   ];
 
