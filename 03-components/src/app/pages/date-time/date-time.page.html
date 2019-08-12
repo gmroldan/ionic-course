@@ -1,0 +1,20 @@
+<app-header title="DateTime"></app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Birthday Data</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Birthday</ion-label>
+      <ion-datetime placeholder="birthday"
+                    displayFormat="YYYY MMMM DD"                    
+                    cancelText="Cancel!!!"
+                    [ngModel]="birthday.toISOString()"
+                    (ionChange)="changeDate( $event )">
+      </ion-datetime>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

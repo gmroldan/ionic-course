@@ -37,6 +37,11 @@ export class IndexPage implements OnInit {
       icon: 'checkmark-circle-outline',
       name: 'Checkbox',
       redirectTo: '/checks'
+    },
+    {
+      icon: 'calendar',
+      name: 'Date Time',
+      redirectTo: '/date-time'
     }
   ];
 
