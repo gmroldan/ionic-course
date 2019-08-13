@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'buttons', loadChildren: './pages/buttons/buttons.module#ButtonsPageModule' },
   { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },
   { path: 'checks', loadChildren: './pages/checks/checks.module#ChecksPageModule' },
-  { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' }
+  { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
+  { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' }
 
 ];
 

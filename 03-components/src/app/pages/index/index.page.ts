@@ -42,6 +42,11 @@ export class IndexPage implements OnInit {
       icon: 'calendar',
       name: 'Date Time',
       redirectTo: '/date-time'
+    },
+    {
+      icon: 'car',
+      name: 'Fabs',
+      redirectTo: '/fabs'
     }
   ];
 
