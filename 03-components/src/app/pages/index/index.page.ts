@@ -62,6 +62,11 @@ export class IndexPage implements OnInit {
       icon: 'hammer',
       name: 'Input - Forms',
       redirectTo: '/input'
+    },
+    {
+      icon: 'list',
+      name: 'List - Sliding',
+      redirectTo: '/list'
     }
   ];
 
