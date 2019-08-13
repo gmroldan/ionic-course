@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },
   { path: 'checks', loadChildren: './pages/checks/checks.module#ChecksPageModule' },
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
-  { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' }
+  { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' }
 
 ];
 

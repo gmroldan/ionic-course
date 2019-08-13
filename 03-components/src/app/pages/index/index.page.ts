@@ -47,6 +47,11 @@ export class IndexPage implements OnInit {
       icon: 'car',
       name: 'Fabs',
       redirectTo: '/fabs'
+    },
+    {
+      icon: 'grid',
+      name: 'Grid - Rows',
+      redirectTo: '/grid'
     }
   ];
 
