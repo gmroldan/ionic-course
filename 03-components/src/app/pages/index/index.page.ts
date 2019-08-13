@@ -52,6 +52,11 @@ export class IndexPage implements OnInit {
       icon: 'grid',
       name: 'Grid - Rows',
       redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite',
+      name: 'Infinite Scroll',
+      redirectTo: '/infinite-scroll'
     }
   ];
 

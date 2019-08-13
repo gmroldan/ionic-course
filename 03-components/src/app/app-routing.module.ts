@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'checks', loadChildren: './pages/checks/checks.module#ChecksPageModule' },
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
   { path: 'fabs', loadChildren: './pages/fabs/fabs.module#FabsPageModule' },
-  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' }
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
+  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' }
 
 ];
 
