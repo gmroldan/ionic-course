@@ -67,6 +67,11 @@ export class IndexPage implements OnInit {
       icon: 'list',
       name: 'List - Sliding',
       redirectTo: '/list'
+    },
+    {
+      icon: 'reorder',
+      name: 'List - Reorder',
+      redirectTo: '/list-reorder'
     }
   ];
 
