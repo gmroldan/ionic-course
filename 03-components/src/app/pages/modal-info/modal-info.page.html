@@ -1,0 +1,19 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title text-capitalize>{{ name }} -- {{ country }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button color="primary" 
+              expand="full"
+              (click)="quitWithoutArgs()">
+    Quit without args
+  </ion-button>
+
+  <ion-button color="secondary" 
+              expand="full"
+              (click)="quitWithArgs()">
+    Quit with args
+  </ion-button>
+</ion-content>
